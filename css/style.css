@@ -1,0 +1,411 @@
+/**{
+  border: red solid 1px;
+}*/
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.img_estra_logo{
+  width: 10vw;
+  height: 3vw;
+}
+
+.menu_list{
+  font-size: 14px;
+  color: #a9a9a9;
+
+}
+
+.menu_item{
+  display: inline-block;
+  list-style: none;
+  margin-left: 5px;
+}
+
+/*ここからtitleセクション*/
+.title{
+  width: 100%;
+  height: 40vw;
+  position: relative;
+  color:#c70067;
+}
+
+.title_img{
+  width: 60%;
+  position: absolute;
+  left: 40%;
+}
+
+.title_text{
+  position: absolute;
+  top: 10%;
+  left: 22%;
+  font-size: 3.2vw;
+  font-family: cursive, "游ゴシック", sans-serif;
+}
+
+.title_emphasis{
+  color:#00a1e9;
+}
+
+.title_jp{
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+
+.title_small{
+  position: absolute;
+  top: 60%;
+  left: 22%;
+  color: #a9a9a9;
+  font-size: 0.8vw;
+}
+
+/*ここからニュースセクション*/
+.news{
+  width: 100%;
+  height: 40vw;
+}
+
+.index{
+  position: relative;
+  width: 100%;
+  height: 10vw;
+}
+
+.index_en{
+  position: absolute;
+    top: 50%;
+    left: 26%;
+  color:#c70067;
+  font-size: 0.8vw;
+  font-family: cursive, "游ゴシック", sans-serif;
+}
+
+.index_jp{
+  position: absolute;
+    top: 60%;
+    left: 26%;
+  color: #808080;
+  font-size: 1.3vw;
+  font-family: Helvetica, "游ゴシック", sans-serif;
+  font-weight: bold;
+}
+
+table{
+  color: #808080;
+  font-family: Helvetica, "游ゴシック", sans-serif;
+  font-size: 1.0vw;
+  margin-left: 25vw;
+  border-top: #808080 solid 1px;
+}
+
+td{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-bottom: #808080 solid 1px;
+}
+
+.news_emphasis{
+  padding-top: 0.2vw;
+  padding-bottom: 0.2vw;
+  border-radius: 6px;
+  text-align: center;
+  background: #c70067;
+  color: #fff;
+}
+
+/*ここからAboutセクション*/
+.index_en_center {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.index_jp_center {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about_contents{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.about_text{
+  width: 25%;
+  color: #808080;
+  font-family: Helvetica, "游ゴシック", sans-serif;
+  font-size: 1.0vw;
+}
+
+.about_img{
+  width: 25%;
+}
+
+/*ここからServiceセクション*/
+.index_en_service {
+  position: absolute;
+  left: 20%;
+}
+
+.index_jp_service {
+  position: absolute;
+  left: 20%;
+}
+
+.service{
+  width: 100%;
+}
+
+.grid{
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 40% 40%;
+  margin-left: 20%;
+}
+
+.box1{
+  display:block;
+  text-align: center;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background: #b2005c;
+  color: #fff;
+  font-size: 1.5vw;
+}
+
+.box2{
+  position: relative;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background: #b7548e;
+  color: #fff;
+  font-size: 1.5vw;
+}
+
+.box3 {
+  position: relative;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background: #bf8f98;
+  color: #fff;
+  font-size: 1.5vw;
+}
+
+.service_img{
+  width: 35%;
+  margin-top: 2vw;
+}
+
+.service_title{
+  position: absolute;
+  top: 10%;
+  left: 35%;
+}
+
+.service_text_first{
+  font-family: Helvetica, "游ゴシック", sans-serif;
+  font-size: 1.0vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.service_text_second{
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  font-family: Helvetica, "游ゴシック", sans-serif;
+  font-size: 1.0vw;
+  margin-right: 2vw;
+}
+
+/*ここからblogセクション*/
+.blog {
+  width: 100%;
+}
+
+.index_en_blog {
+  position: absolute;
+  left: 18%;
+}
+
+.index_jp_blog {
+  position: absolute;
+  left: 18%;
+}
+
+.blog_contents{
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 18%;
+}
+
+.blog_card{
+  width: 25%;
+  position: relative;
+}
+
+.blog_img{
+  width: 100%;
+  border-radius: 6px;
+}
+
+.blog_emphasis{
+  position: absolute;
+  top: 0%;
+  left:0%;
+  padding: 0.3vw 0.4vw;
+  margin: 0;
+  border-top-left-radius: 6px;
+  text-align: center;
+  background: #c70067;
+  color: #fff;
+  font-family: Helvetica, "游ゴシック", sans-serif;
+  font-size: 1.0vw;
+}
+
+.blog_text{
+  color: #808080;
+  font-family: Helvetica, "游ゴシック", sans-serif;
+  font-size: 1.0vw;
+}
+
+.blog_date{
+  display: inline-block;
+}
+
+.blog_tag{
+  display: inline-block;
+  padding-left: 24%;
+}
+
+.blog_button{
+  margin: 4vw 40vw;
+  padding:0.5vw 0vw;
+  border-radius: 2vw;
+  text-align: center;
+  border: #c70067 solid 0.1vw;
+  color: #c70067;
+  font-family: Helvetica, "游ゴシック", sans-serif;
+  font-size: 1.3vw;
+}
+
+/*ここからCompanyセクション*/
+.company {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.index_en_company {
+  position: absolute;
+  left: 20%;
+}
+
+.index_jp_company {
+  position: absolute;
+  left: 20%;
+}
+
+.company_table{
+  color: #808080;
+  font-family: Helvetica, "游ゴシック", sans-serif;
+  margin: 3vw 25vw;
+  border-top: #808080 solid 1px;
+}
+
+.table_title {
+  font-size: 1.2vw;
+  font-weight: bold;
+  padding: 1.3vw 3vw 1.3vw 3vw;
+  border-top: #808080 solid 0px;
+}
+
+.table_contents{
+  padding: 1.3vw 3vw 1.3vw 3vw;
+  border-top: #808080 solid 0px;
+  background-color: #fff;
+}
+
+.company_detail{
+  width: 100%;
+  position: relative;
+}
+
+.company_img{
+  width: 49%;
+  display: inline-block;
+}
+
+.company_text_recruit{
+  position: absolute;
+  top:30%;
+  left: 20%;
+  color: #fff;
+  font-family: Helvetica, "游ゴシック", sans-serif;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.company_text_interview {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  color: #fff;
+  font-family: Helvetica, "游ゴシック", sans-serif;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+/*ここからcontactセクション*/
+.question{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.question_text{
+  color: #808080;
+  font-weight: bold;
+  font-family: Helvetica, "游ゴシック", sans-serif;
+  font-size: 1.5vw;
+}
+
+.textarea{
+  display: block;
+  margin-left: 38vw;
+  margin-bottom: 3vw;
+}
+
+.submit{
+  display: block;
+  margin-left: 41vw;
+  padding: 1vw 4vw;
+  color: #fff;
+  font-family: Helvetica, "游ゴシック", sans-serif;
+  font-size: 1vw;
+  background: linear-gradient(90deg, #b7548e, #c70067);
+  box-shadow: 0vw 0.3vw 0px rgb(150, 122, 122);
+  border-radius: 3vw;
+  border:0;
+}
+
+.footer{
+  color: #a9a9a9;
+  font-size: 0.8vw;
+  text-align: center;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}

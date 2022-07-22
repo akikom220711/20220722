@@ -2,15 +2,16 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
+  background-color: #fff;
 }
 
 .img_estra_logo{
   width: 10vw;
-  height: 3vw;
 }
 
 .menu_list{
-  font-size: 14px;
+  font-size: 1.3vw;
+  font-family: Helvetica, "游ゴシック", sans-serif;
   color: #a9a9a9;
 
 }
@@ -18,7 +19,7 @@
 .menu_item{
   display: inline-block;
   list-style: none;
-  margin-left: 5px;
+  margin-left: 2vw;
 }
 
 /*ここからtitleセクション*/
@@ -27,6 +28,7 @@
   height: 40vw;
   position: relative;
   color:#c70067;
+  background-color: #fff;
 }
 
 .title_img{
@@ -67,6 +69,7 @@
 .news{
   width: 100%;
   margin-bottom: 10vw;
+  background-color: #fff;
 }
 
 .index{
@@ -128,6 +131,7 @@
 .about{
   width: 100%;
   margin-bottom: 10vw;
+  background-color: #fff;
 }
 
 .index_en_center {
@@ -175,6 +179,7 @@
 .service{
   width: 100%;
   margin-bottom: 10vw;
+  background-color: #fff;
 }
 
 .grid{
@@ -219,7 +224,7 @@
 
 .service_title{
   position: absolute;
-  top: 10%;
+  top: 25%;
   left: 35%;
 }
 
@@ -232,7 +237,7 @@
 
 .service_text_second{
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 35%;
   font-family: Helvetica, "游ゴシック", sans-serif;
   font-size: 1.0vw;
@@ -243,6 +248,7 @@
 .blog {
   width: 100%;
   margin-bottom: 10vw;
+  background-color: #fff;
 }
 
 .index_en_blog {
@@ -290,6 +296,7 @@
   color: #808080;
   font-family: Helvetica, "游ゴシック", sans-serif;
   font-size: 1.0vw;
+  padding: 1vw 0vw;
 }
 
 .blog_date{
@@ -315,9 +322,8 @@
 /*ここからCompanyセクション*/
 .company {
   width: 100%;
-  display: block;
-  text-align: center;
-  margin-bottom: 5vw;
+  margin-bottom: 10vw;
+  background-color: #fff;
 }
 
 .index_en_company {
@@ -331,7 +337,7 @@
 }
 
 .company_table{
-  width: 40vw;
+  width: 50vw;
   color: #808080;
   font-family: Helvetica, "游ゴシック", sans-serif;
   margin: 3vw 25vw;
@@ -339,6 +345,7 @@
 }
 
 .table_title {
+  width: 10vw;
   font-size: 1.2vw;
   font-weight: bold;
   padding: 1.3vw 3vw 1.3vw 3vw;
@@ -346,9 +353,9 @@
 }
 
 .table_contents{
+  width: 40vw;
   padding: 1.3vw 3vw 1.3vw 3vw;
   border-bottom: #808080 solid 0.5px;
-  background-color: #fff;
 }
 
 .company_detail{
@@ -356,15 +363,20 @@
   position: relative;
 }
 
-.company_img{
-  width: 49%;
-  display: inline-block;
+.company_img_recruit{
+  width: 50%;
+  float: left;
+}
+
+.company_img_interview{
+  width: 50%;
 }
 
 .company_text_recruit{
   position: absolute;
-  top:30%;
-  left: 20%;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -25%);
   color: #fff;
   font-family: Helvetica, "游ゴシック", sans-serif;
   font-size: 2vw;
@@ -373,8 +385,9 @@
 
 .company_text_interview {
   position: absolute;
-  top: 30%;
-  left: 70%;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -75%);
   color: #fff;
   font-family: Helvetica, "游ゴシック", sans-serif;
   font-size: 2vw;
@@ -385,6 +398,7 @@
 .question{
   width: 100%;
   text-align: center;
+  background-color: #fff;
 }
 
 .question_text{
@@ -401,6 +415,7 @@
   height: 3vw;
   margin-left: 35vw;
   margin-bottom: 3vw;
+  border: none
 }
 
 .submit{
@@ -422,4 +437,5 @@
   text-align: center;
   margin-top: 3vw;
   margin-bottom: 3vw;
+  background-color: #fff;
 }

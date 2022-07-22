@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--<link rel="stylesheet" href="css/reset.css">-->
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <title>LPサイト作成</title>
 </head>
@@ -33,36 +33,26 @@
         <p class="index_en">News</p>
         <h3 class="index_jp">新着情報</h3>
       </div>
-      <table>
-        <tr>
-          <td >2021/01/01</td>
-          <td class="news_emphasis">ニュース</td>
-          <td>COACHTECHのサービスが開始されました。</td>
-        </tr>
-        <tr>
-          <td>2021/01/01</td>
-          <td class="news_emphasis">ニュース</td>
-          <td>COACHTECHのサービスが開始されました。</td>
-        </tr>
-        <tr>
-          <td>2021/01/01</td>
-          <td class="news_emphasis">ニュース</td>
-          <td>COACHTECHのサービスが開始されました。</td>
-        </tr>
-        <tr>
-          <td>2021/01/01</td>
-          <td class="news_emphasis">ニュース</td>
-          <td>COACHTECHのサービスが開始されました。</td>
-        </tr>
-        <tr>
-          <td>2021/01/01</td>
-          <td class="news_emphasis">ニュース</td>
-          <td>COACHTECHのサービスが開始されました。</td>
-        </tr>
-      </table>
+        <ul class="news_all">
+          <li class="news_list">
+            <span>2021/01/01</span><span class="news_emphasis">ニュース</span><span>COACHTECHのサービスが開始されました。</span>
+          </li>
+          <li class="news_list">
+            <span>2021/01/01</span><span class="news_emphasis">ニュース</span><span>COACHTECHのサービスが開始されました。</span>
+          </li>
+          <li class="news_list">
+            <span>2021/01/01</span><span class="news_emphasis">ニュース</span><span>COACHTECHのサービスが開始されました。</span>
+          </li>
+          <li class="news_list">
+            <span>2021/01/01</span><span class="news_emphasis">ニュース</span><span>COACHTECHのサービスが開始されました。</span>
+          </li>
+          <li class="news_list">
+            <span>2021/01/01</span><span class="news_emphasis">ニュース</span><span>COACHTECHのサービスが開始されました。</span>
+          </li>
+        </ul>
     </div>
 
-    <div>
+    <div class="about">
       <div class="index">
         <p class="index_en index_en_center">About</p>
         <h3 class="index_jp index_jp_center">Technology × Coaching</h3>
@@ -135,28 +125,28 @@
       </div>
       <table class="company_table">
         <tr>
-          <th class="table_title">会社名</th>
-          <td class="table_contents">株式会社estra</td>
+          <th class="table_title" align="left">会社名</th>
+          <td class="table_contents" align="left">株式会社estra</td>
         </tr>
         <tr>
-          <th class="table_title">代表者名</th>
-          <td class="table_contents">福場凛太郎</td>
+          <th class="table_title" align="left">代表者名</th>
+          <td class="table_contents" align="left">福場凛太郎</td>
         </tr>
         <tr>
-          <th class="table_title">本社所在地</th>
-          <td class="table_contents">東京都渋谷区1―1―1</td>
+          <th class="table_title" align="left">本社所在地</th>
+          <td class="table_contents" align="left">東京都渋谷区1―1―1</td>
         </tr>
         <tr>
-          <th class="table_title">従業員数</th>
-          <td class="table_contents">100名</td>
+          <th class="table_title" align="left">従業員数</th>
+          <td class="table_contents" align="left">100名</td>
         </tr>
         <tr>
-          <th class="table_title">電話番号</th>
-          <td class="table_contents">0120―00―0000</td>
+          <th class="table_title" align="left">電話番号</th>
+          <td class="table_contents" align="left">0120―00―0000</td>
         </tr>
         <tr>
-          <th class="table_title">資本金</th>
-          <td class="table_contents">¥10,000,000</td>
+          <th class="table_title" align="left">資本金</th>
+          <td class="table_contents" align="left">¥10,000,000</td>
         </tr>
       </table>
       <div class="company_detail">
@@ -170,7 +160,7 @@
     <div class="question">
       <form class="question_form" name="question" method="post">
         <p class="question_text">株式会社estraへのお問い合わせはこちらから</p>
-        <textarea class="textarea" name="textarea" cols="30" rows="2"></textarea>
+        <textarea class="textarea" name="textarea"></textarea>
         <input class="submit" type="submit" value="お問い合わせ">
       </form>
     </div>

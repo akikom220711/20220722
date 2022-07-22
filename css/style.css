@@ -70,7 +70,7 @@
 /*ここからニュースセクション*/
 .news{
   width: 100%;
-  height: 40vw;
+  margin-bottom: 10vw;
 }
 
 .index{
@@ -98,23 +98,30 @@
   font-weight: bold;
 }
 
-table{
-  color: #808080;
-  font-family: Helvetica, "游ゴシック", sans-serif;
-  font-size: 1.0vw;
+.news_all{
+  width: 42vw;
   margin-left: 25vw;
-  border-top: #808080 solid 1px;
+  padding: 0;
+  color: #808080;
+  font-size: 1vw;
+  font-family: Helvetica, "游ゴシック", sans-serif;
+  border-top: #a9a9a9 solid 0.5px;
+  border-bottom: #a9a9a9 solid 0.5px;
 }
 
-td{
-  margin-top: 10%;
-  margin-bottom: 10%;
-  border-bottom: #808080 solid 1px;
+.news_list{
+  list-style: none;
+  margin: 3vw 0vw;
+  padding-bottom: 1.5vw;
+  width: 42vw;
+  border-bottom: #a9a9a9 solid 1px;
 }
 
 .news_emphasis{
-  padding-top: 0.2vw;
-  padding-bottom: 0.2vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
   border-radius: 6px;
   text-align: center;
   background: #c70067;
@@ -122,6 +129,11 @@ td{
 }
 
 /*ここからAboutセクション*/
+.about{
+  width: 100%;
+  margin-bottom: 10vw;
+}
+
 .index_en_center {
   position: absolute;
   top: 50%;
@@ -166,6 +178,7 @@ td{
 
 .service{
   width: 100%;
+  margin-bottom: 10vw;
 }
 
 .grid{
@@ -233,6 +246,7 @@ td{
 /*ここからblogセクション*/
 .blog {
   width: 100%;
+  margin-bottom: 10vw;
 }
 
 .index_en_blog {
@@ -307,6 +321,7 @@ td{
   width: 100%;
   display: block;
   text-align: center;
+  margin-bottom: 5vw;
 }
 
 .index_en_company {
@@ -320,6 +335,7 @@ td{
 }
 
 .company_table{
+  width: 40vw;
   color: #808080;
   font-family: Helvetica, "游ゴシック", sans-serif;
   margin: 3vw 25vw;
@@ -330,12 +346,12 @@ td{
   font-size: 1.2vw;
   font-weight: bold;
   padding: 1.3vw 3vw 1.3vw 3vw;
-  border-top: #808080 solid 0px;
+  border-bottom: #808080 solid 0.5px;
 }
 
 .table_contents{
   padding: 1.3vw 3vw 1.3vw 3vw;
-  border-top: #808080 solid 0px;
+  border-bottom: #808080 solid 0.5px;
   background-color: #fff;
 }
 
@@ -372,7 +388,7 @@ td{
 /*ここからcontactセクション*/
 .question{
   width: 100%;
-  display: block;
+  display: flex;
   text-align: center;
 }
 
@@ -380,18 +396,22 @@ td{
   color: #808080;
   font-weight: bold;
   font-family: Helvetica, "游ゴシック", sans-serif;
-  font-size: 1.5vw;
+  font-size: 1vw;
+  margin-left: 33vw;
 }
 
 .textarea{
   display: block;
-  margin-left: 38vw;
+  resize: none;
+  width: 30vw;
+  height: 3vw;
+  margin-left: 33vw;
   margin-bottom: 3vw;
 }
 
 .submit{
   display: block;
-  margin-left: 41vw;
+  margin-left: 42vw;
   padding: 1vw 4vw;
   color: #fff;
   font-family: Helvetica, "游ゴシック", sans-serif;
